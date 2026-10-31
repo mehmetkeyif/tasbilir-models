@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "version": 1,
+  "createdAt": "2026-10-31T20:01:34+00:00",
+  "labels": [
+    "agate",
+    "amber",
+    "amethyst",
+    "aragonite",
+    "barite",
+    "basalt",
+    "beryl",
+    "calcite",
+    "chalcedony",
+    "chalcopyrite",
+    "corundum",
+    "dolomite",
+    "feldspar",
+    "fire_opal",
+    "flint",
+    "fluorite",
+    "galena",
+    "garnet",
+    "glass",
+    "goethite",
+    "granite",
+    "gypsum",
+    "hematite",
+    "jasper",
+    "limestone",
+    "magnetite",
+    "malachite",
+    "mica",
+    "obsidian",
+    "olivine",
+    "oltu_stone",
+    "opal",
+    "petrified_wood",
+    "pyrite",
+    "quartz",
+    "sandstone",
+    "serpentine",
+    "topaz",
+    "tourmaline",
+    "turquoise"
+  ],
+  "inputSize": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "tfliteInput": "float32",
+  "output": "logits",
+  "tflite": {
+    "url": "https://raw.githubusercontent.com/mehmetkeyif/tasbilir-models/main/v1/model.tflite",
+    "bytes": 16988140
+  },
+  "pte": {
+    "url": "https://raw.githubusercontent.com/mehmetkeyif/tasbilir-models/main/v1/model.pte",
+    "bytes": 17029664
+  },
+  "accuracy": {
+    "top1": 0.5018,
+    "top3": 0.6786
+  },
+  "images": 8392
+}
